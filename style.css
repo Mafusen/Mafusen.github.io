@@ -217,7 +217,7 @@ body::before {
 }
 @media screen and (max-width: 576px) {
   .profilkort__knapper > button {
-    min-width: 100px;
+    min-width: 175px;
     width: 100px;
     max-width: 350px;
   }
