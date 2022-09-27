@@ -14,7 +14,7 @@ body::before {
   inset: 0;
   z-index: -1;
   pointer-events: none;
-  background: linear-gradient(-45deg, #f48665, #df8181, #25a4d2, #34dcb5);
+  background: linear-gradient(-45deg, #f48665, #df8181, #25a4d2, #4cffd5);
   background-size: 400% 400%;
   -webkit-animation: gradient 30s ease infinite;
           animation: gradient 30s ease infinite;
@@ -72,10 +72,11 @@ body::before {
   position: relative;
   -webkit-backdrop-filter: blur(50px);
           backdrop-filter: blur(50px);
-  border: 2px solid rgba(255, 255, 255, 0.2509803922);
+  border: 2px solid rgba(255, 255, 255, 0.3764705882);
   padding: 3rem 5rem;
   flex-direction: column;
   gap: 40px;
+  background-color: rgba(255, 255, 255, 0.154);
 }
 @media screen and (max-width: 768px) {
   .profilkort {
@@ -149,7 +150,6 @@ body::before {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  padding-bottom: 50px;
 }
 .profilkort__social a {
   display: inline-flex;

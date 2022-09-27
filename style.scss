@@ -15,7 +15,7 @@ body {
         inset: 0;
         z-index: -1;
         pointer-events: none;
-        background: linear-gradient(-45deg, #f48665, #df8181, #25a4d2, #34dcb5);
+        background: linear-gradient(-45deg, #f48665, #df8181, #25a4d2, #4cffd5);
         background-size: 400% 400%;
         animation: gradient 30s ease infinite;
     }
@@ -62,10 +62,12 @@ body {
     width: 650px;
     position: relative;
     backdrop-filter: blur(50px);
-    border: 2px solid #ffffff40;
+    border: 2px solid #ffffff60;
     padding: 3rem 5rem;
     flex-direction: column;
     gap: 40px;
+    background-color: rgba(255, 255, 255, 0.154);
+
 
     @media screen and (max-width: 768px) {
         width: auto;
@@ -129,7 +131,6 @@ body {
                 &:hover{
                     transform: scale(1.1) translateY(-1px);
                 }
-        
             }
 
             & > *:last-child {
@@ -148,7 +149,7 @@ body {
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        padding-bottom: 50px;
+        //padding-bottom: 50px;
 
         a {
             display: inline-flex;
